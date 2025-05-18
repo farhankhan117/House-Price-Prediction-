@@ -23,5 +23,5 @@ The housing price prediction model was developed using multiple linear regressio
 
 ## Project Files  
 - `Housing.csv` - Raw dataset  
-- `linear_regression.ipynb` - Code for data preprocessing, modeling, evaluation, and visualization  
+- `Housing_Price_Prediction.ipynb` - Code for data preprocessing, modeling, evaluation, and visualization  
 - `README.md` - Project overview and summary
