@@ -1,52 +1,27 @@
-# Linear-Regression
-Objective:
-In this task, I implemented and understood simple and multiple linear regression using the House Price Prediction Dataset. The goal was to explore the relationships between the features and the target variable (price) using linear regression.
+# Linear Regression - House Price Prediction
 
-Tools and Libraries:
-Python
+## Objective  
+Implement simple and multiple linear regression to predict housing prices by exploring feature relationships and building a predictive model.
 
-Scikit-learn: Used for creating and training the linear regression model.
+## Tools & Libraries  
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
 
-Pandas: For data manipulation and preprocessing.
+## Summary of Steps  
+- Loaded and explored the housing dataset, checked for missing values  
+- Encoded categorical variables using one-hot encoding  
+- Split data into training (80%) and testing (20%) sets  
+- Built and trained linear regression models on training data  
+- Evaluated model performance using MAE, MSE, and R² metrics  
+- Visualized regression lines for features against price  
+- Interpreted coefficients to assess feature impact on price  
 
-Matplotlib: For plotting regression lines and visualizations.
+## Conclusion  
+The housing price prediction model was developed using multiple linear regression with preprocessed and encoded data. Evaluation metrics demonstrated reasonable accuracy, and visualization along with coefficients provided insights into the effect of different features on house prices.
 
-Dataset:
-The dataset used in this project is a House Price Prediction Dataset containing features such as area, bedrooms, bathrooms, stories, and more, with the target variable being price.
-
-Steps Taken:
-Data Preprocessing:
-
-Loaded the dataset and performed initial analysis.
-
-Checked for missing values and handled them (if needed).
-
-Encoded categorical variables using one-hot encoding.
-
-Data Splitting:
-
-Split the data into training and testing sets (80% training, 20% testing).
-
-Linear Regression Model:
-
-Applied simple linear regression for a single feature (e.g., area).
-
-Applied multiple linear regression for multiple features (e.g., area, bedrooms, bathrooms).
-
-Model Evaluation:
-
-Evaluated the model performance using:
-
-MAE (Mean Absolute Error)
-
-MSE (Mean Squared Error)
-
-R² (R-squared score)
-
-Visualization:
-
-Plotted the regression line for simple linear regression.
-
-Visualized the relationships for multiple features in the model.
-
-
+## Project Files  
+- `Housing.csv` - Raw dataset  
+- `linear_regression.ipynb` - Code for data preprocessing, modeling, evaluation, and visualization  
+- `README.md` - Project overview and summary
